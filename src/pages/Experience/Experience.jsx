@@ -75,7 +75,7 @@ const ExperienceSection = () => {
       company: "Covid Care Teens",
       period: "2021",
       description:
-        "CI played a key role in gathering and verifying resource data, building a database with 100+ daily entries. I directly assisted 80+ individuals with medical and isolation support and collaborated on essential service lists, including ambulance and mental health resources. I also managed and updated critical information packages, ensuring accessibility for 1,000+ users during the pandemic.",
+        "I played a key role in gathering and verifying resource data, building a database with 100+ daily entries. I directly assisted 80+ individuals with medical and isolation support and collaborated on essential service lists, including ambulance and mental health resources. I also managed and updated critical information packages, ensuring accessibility for 1,000+ users during the pandemic.",
     },
   ];
 
@@ -114,7 +114,7 @@ const ExperienceSection = () => {
               <div className="absolute inset-0 -z-10 bg-gradient-to-r from-cyan-500/20 to-purple-500/20 blur-3xl rounded-full" />
             </div>
             <p className="text-lg md:text-xl text-gray-400 font-medium tracking-wide text-center max-w-2xl">
-              "Blending tech, operations, and social impact, I excel in management, problem-solving, and creating meaningful solutions."
+              Blending tech, operations, and social impact, I excel in management, problem-solving, and creating meaningful solutions.
             </p>
           </div>
 
