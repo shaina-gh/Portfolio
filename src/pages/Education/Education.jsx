@@ -15,25 +15,35 @@ const EducationSection = () => {
 
   const educationData = [
     {
-      degree: "Secondary School Certificate (SSC)",
-      school: "Natore Textile Institute",
+      degree: "Bachelor of Technology in Computer Science and Engineering",
+      school: "Vellore Institute of Technology",
       mascot: "📘",
-      year: "2019-2021",
-      achievements: ["GPA: 4.89", "Subject: Science"],
-      skills: ["Mathematics", "Physics", "Chemistry", "Biology"],
+      year: "2022 - 2026",
+      achievements: [],
+      skills: [],
       description:
-        "Focused on core science subjects with emphasis on practical laboratory work and scientific research methodologies.",
+        "",
     },
     {
-      degree: "Higher Secondary Certificate (HSC)",
-      school: "Dottopara Model Degree College",
+      degree: "Senior School Certificate - CBSE",
+      school: "GT Aloha Vidhya Mandir, Chennai",
       mascot: "📗",
-      year: "2021-2023",
-      achievements: ["GPA: 4.25", "Subject: Arts"],
-      skills: ["Literature", "Social Studies", "Economics", "History"],
+      year: "2022",
+      achievements: [],
+      skills: [],
       description:
-        "Developed strong analytical and critical thinking skills through comprehensive study of humanities and social sciences.",
+        "",
     },
+    {
+      degree: "Indian Certificate of Secondary Education - ICSE",
+      school: "Primrose Schools, Chennai",
+      mascot: "📘",
+      year: "2020",
+      achievements: [],
+      skills: [],
+      description:
+        "",
+    }
   ];
 
   const containerVariants = {
@@ -75,11 +85,10 @@ const EducationSection = () => {
           className="text-center mb-16"
         >
           <h2 className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-teal-400 to-blue-500 bg-clip-text text-transparent mb-6">
-            Educational Journey
+            Education
           </h2>
           <p className="text-gray-300 max-w-2xl mx-auto text-lg">
-            Discover how academic excellence shapes innovative thinking and
-            professional growth.
+            Take a look at my academic background, including the institutions I’ve attended and the degrees I’ve completed.
           </p>
         </motion.div>
 
@@ -123,7 +132,7 @@ const EducationSection = () => {
                   {edu.description}
                 </p>
 
-                <div className="space-y-3">
+                {/* <div className="space-y-3">
                   <h4 className="text-sm font-semibold text-white flex items-center gap-2">
                     <Trophy className="w-4 h-4 text-yellow-500" />
                     Key Achievements
@@ -139,9 +148,9 @@ const EducationSection = () => {
                       </div>
                     ))}
                   </div>
-                </div>
+                </div> */}
 
-                <div className="flex flex-wrap gap-2">
+                {/* <div className="flex flex-wrap gap-2">
                   {edu.skills.map((skill, i) => (
                     <span
                       key={i}
@@ -150,7 +159,7 @@ const EducationSection = () => {
                       {skill}
                     </span>
                   ))}
-                </div>
+                </div> */}
               </div>
             </motion.div>
           ))}

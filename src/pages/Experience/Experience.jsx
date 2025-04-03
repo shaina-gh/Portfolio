@@ -54,28 +54,28 @@ const ExperienceCard = ({
 const ExperienceSection = () => {
   const experiences = [
     {
-      icon: Network,
-      title: "WordPress Developer",
-      company: "Fiverr",
-      period: "2019 - 2020",
+      icon: Code2,
+      title: "Joint Secretary",
+      company: "The Linux Club, VIT",
+      period: "2024 - 2025",
       description:
-        "Worked on developing and customizing WordPress websites for clients globally.",
+        "Had the opportunity to organize and host numerous hackathons, CTF-based competitions, and cloud-focused workshops alongside my team. It was an incredible experience driving tech events, fostering collaboration, and engaging with a passionate community of developers.",
+    },
+    {
+      icon: Network,
+      title: "Operations Team Member",
+      company: "Enactus, VIT",
+      period: "2023 - 2025",
+      description:
+        "I worked to create employment opportunities for underprivileged communities. I gained hands-on experience in sales, marketing, and management while serving as the key point of contact for vendors and resources, ensuring smooth project execution.",
     },
     {
       icon: Layers,
-      title: "Junior Frontend Developer",
-      company: "Sera Programmer",
-      period: "2021 - 2023",
+      title: "Volunteer",
+      company: "Covid Care Teens",
+      period: "2021",
       description:
-        "Assisted in building and optimizing user interfaces with a focus on responsive and interactive designs.",
-    },
-    {
-      icon: Code2,
-      title: "JavaScript Developer",
-      company: "OlovJS (Sera Programmer)",
-      period: "2023 - Present",
-      description:
-        "Contributed to developing JavaScript libraries and enhancing framework functionalities.",
+        "CI played a key role in gathering and verifying resource data, building a database with 100+ daily entries. I directly assisted 80+ individuals with medical and isolation support and collaborated on essential service lists, including ambulance and mental health resources. I also managed and updated critical information packages, ensuring accessibility for 1,000+ users during the pandemic.",
     },
   ];
 
@@ -109,12 +109,12 @@ const ExperienceSection = () => {
           <div className="flex flex-col items-center space-y-8 mb-20">
             <div className="relative">
               <h2 className="text-5xl md:text-7xl font-black text-transparent bg-gradient-to-r from-teal-400 to-blue-500 bg-clip-text text-center">
-                Professional Journey
+                Experience & Involvement
               </h2>
               <div className="absolute inset-0 -z-10 bg-gradient-to-r from-cyan-500/20 to-purple-500/20 blur-3xl rounded-full" />
             </div>
             <p className="text-lg md:text-xl text-gray-400 font-medium tracking-wide text-center max-w-2xl">
-              "Transforming ideas into digital reality, one project at a time"
+              "Blending tech, operations, and social impact, I excel in management, problem-solving, and creating meaningful solutions."
             </p>
           </div>
 

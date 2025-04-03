@@ -119,10 +119,10 @@ const SkillsSection = () => {
           name: "REST APIs",
           icon: <BsGrid1X2 className="w-4 h-4 text-[#FF6C37]" />,
         },
-        {
-          name: "GraphQL",
-          icon: <SiGraphql className="w-4 h-4 text-[#E10098]" />,
-        },
+        // {
+        //   name: "GraphQL",
+        //   icon: <SiGraphql className="w-4 h-4 text-[#E10098]" />,
+        // },
       ],
     },
     {
@@ -155,11 +155,11 @@ const SkillsSection = () => {
           name: "Docker",
           icon: <FaDocker className="w-4 h-4 text-[#2496ED]" />,
         },
-        { name: "CI/CD", icon: <FcWorkflow className="w-4 h-4" /> },
-        {
-          name: "Kubernetes",
-          icon: <BsGrid1X2 className="w-4 h-4 text-[#326CE5]" />,
-        },
+        // { name: "CI/CD", icon: <FcWorkflow className="w-4 h-4" /> },
+        // {
+        //   name: "Kubernetes",
+        //   icon: <BsGrid1X2 className="w-4 h-4 text-[#326CE5]" />,
+        // },
         { name: "Git", icon: <FaGitAlt className="w-4 h-4 text-[#F05032]" /> },
         { name: "Linux", icon: <FaLinux className="w-4 h-4 text-[#FCC624]" /> },
       ],
@@ -173,16 +173,16 @@ const SkillsSection = () => {
           name: "VS Code",
           icon: <TbBrandVscode className="w-4 h-4 text-[#007ACC]" />,
         },
-        { name: "Jest", icon: <SiJest className="w-4 h-4 text-[#C21325]" /> },
-        {
-          name: "Webpack",
-          icon: <SiWebpack className="w-4 h-4 text-[#8DD6F9]" />,
-        },
-        { name: "Redux", icon: <SiRedux className="w-4 h-4 text-[#764ABC]" /> },
-        {
-          name: "Firebase",
-          icon: <SiFirebase className="w-4 h-4 text-[#FFCA28]" />,
-        },
+        // { name: "Jest", icon: <SiJest className="w-4 h-4 text-[#C21325]" /> },
+        // {
+        //   name: "Webpack",
+        //   icon: <SiWebpack className="w-4 h-4 text-[#8DD6F9]" />,
+        // },
+        //{ name: "Redux", icon: <SiRedux className="w-4 h-4 text-[#764ABC]" /> },
+        // {
+        //   name: "Firebase",
+        //   icon: <SiFirebase className="w-4 h-4 text-[#FFCA28]" />,
+        // },
         { name: "Vercel", icon: <SiVercel className="w-4 h-4 text-white" /> },
         { name: "Vite", icon: <SiVite className="w-4 h-4 text-[#646CFF]" /> },
       ],
@@ -200,10 +200,10 @@ const SkillsSection = () => {
           name: "SVG Animation",
           icon: <MdAnimation className="w-4 h-4 text-[#00C853]" />,
         },
-        {
-          name: "3D Modeling",
-          icon: <Cpu className="w-4 h-4 text-[#7C4DFF]" />,
-        },
+        // {
+        //   name: "3D Modeling",
+        //   icon: <Cpu className="w-4 h-4 text-[#7C4DFF]" />,
+        // },
         {
           name: "Motion Graphics",
           icon: <MdAnimation className="w-4 h-4 text-[#FF6D00]" />,

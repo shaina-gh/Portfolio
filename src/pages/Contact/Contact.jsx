@@ -98,10 +98,10 @@ export default function Contact() {
             <div className="space-y-8">
               <div>
                 <h2 className="text-4xl font-bold mb-4 bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent">
-                  Get in Touch
+                  Get in Touch!
                 </h2>
                 <p className="text-gray-300 text-lg">
-                  Have a question or want to work together? Drop us a message!
+                  Feel free to reach out for any queries, collaboration opportunities, or projects you'd like to work on together. I'm always open to learning, connecting, and exploring new possibilities. Looking forward to hearing from you!
                 </p>
               </div>
 
@@ -112,7 +112,7 @@ export default function Contact() {
                   </div>
                   <div>
                     <h3 className="font-semibold">Email</h3>
-                    <p className="text-gray-400">olovajs@gmail.com</p>
+                    <p className="text-gray-400">shainaofficia10@gmail.com</p>
                   </div>
                 </div>
 
@@ -122,7 +122,7 @@ export default function Contact() {
                   </div>
                   <div>
                     <h3 className="font-semibold">Location</h3>
-                    <p className="text-gray-400">Laxmipure, Natore 6400</p>
+                    <p className="text-gray-400">Chennai, India</p>
                   </div>
                 </div>
               </div>
