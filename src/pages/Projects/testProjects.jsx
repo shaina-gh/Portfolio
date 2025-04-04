@@ -4,14 +4,14 @@ import { useRef, useState } from "react";
 
 const projects = [
   {
-    title: "QuizWiz – Interactive Quiz Platform",
+    title: "Soerting Visualizer",
     description:
-      "Developed an engaging, user-friendly quiz platform aimed at enhancing learning through interactive quizzes. Focused on front-end optimization and UI/UX improvements to ensure a seamless user experience.",
+      "Sorting Visualizer is an interactive project that visually demonstrates how sorting algorithms work. It provides a dynamic representation of the sorting process, allowing users to see how elements are rearranged in real-time.",
     src: "",
     link: "",
     color: "#5196fd",
-    githubLink: "",
-    liveLink: "",
+    githubLink: "https://github.com/shaina-gh/Sorting-Visualizer",
+    liveLink: "sortingvisualizer-shaina.netlify.app/",
   },
   {
     title: "Intelligent Traffic Management System",
