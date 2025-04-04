@@ -4,7 +4,7 @@ import { useRef, useState } from "react";
 
 const projects = [
   {
-    title: "Soerting Visualizer",
+    title: "Sorting Visualizer",
     description:
       "Sorting Visualizer is an interactive project that visually demonstrates how sorting algorithms work. It provides a dynamic representation of the sorting process, allowing users to see how elements are rearranged in real-time.",
     src: "",
